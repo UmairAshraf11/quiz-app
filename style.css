@@ -1,0 +1,61 @@
+
+  /* @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+} */
+@media only screen and (max-width:600px){
+    .QuizApp,body{
+        width: 200px;
+        height: 100px;
+       background-color: green;
+    }
+}
+@media only screen and (max-width:100px){
+    .QuizApp,body{
+        width: 50px;
+        height: 100px;
+        background-color: green;
+    }
+}
+@media only screen and (max-width:50px){
+    .QuizApp,body{
+        width: 10px;
+        height: 100px;
+        background-color: green;
+    }
+}
+.QuizApp{
+   background-color: green;
+    margin: 0 auto;
+    /* width: 1000px; */
+    /* color: white; */
+    border-radius: 50px;
+    /* width: 700px; */
+    border: 15px solid green;
+    padding: 50px;
+    
+   
+    
+}
+.Q{
+    color: white;
+}
+.Quiz{
+    text-shadow:  2px 2px white;
+    background-color: green;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.Quiz1{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: green;
+}
+fieldset{
+    border-radius: 2em;
+}
